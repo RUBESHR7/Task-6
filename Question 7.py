@@ -5,5 +5,7 @@
 a=int(input("enter the number: "))
 if (a==1):
     print("You are True")
-else:
+elif (a==0):
     print("You are False")
+else:
+    print("Entered invalid number")

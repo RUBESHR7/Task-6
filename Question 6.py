@@ -3,10 +3,10 @@
 # 	ouput:user is Male
 
 a=(input("enter your gender: "))
-if (a=='Male'):
-    print("The user is Male")
-elif (a=='male'):
-        print("The user is Male")
+if a == "Male":
+    print("User is Male")
+elif a == "Female":
+    print("User is Female")
 else:
-    print("The user is Female")
+    print("Invalid input, please enter Male or Female")
 

@@ -5,5 +5,7 @@
 a=int(input("enter the number: "))
 if a in [1, 10, 2, 8, 3]:
     print("Favorite number")
+elif a in [7, 4, 6, 5, 9]:
+     print("Not Favorite number")
 else:
-    print("Not Favorite number")
+    print("Entered invalid number")

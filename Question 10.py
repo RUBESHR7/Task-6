@@ -6,8 +6,10 @@
 # 	input:javascript
 # 	output:j
 
-a=input("Enter the word python or javascript = ")
-if (a=="python"):
-    print("Your output is n")
+a=(input("enter the Word python or javascript: "))
+if (a=='python'):
+    print("The last letter is python is",a[5])
+elif (a=='javascript'):
+    print("The First letter is javascript is",a[0])
 else:
-    print("Your output is j")
+    print("you have entered invalid word")
